@@ -1,2 +1,2 @@
-require 'hello'
+require 'resume'
 run Sinatra::Application
