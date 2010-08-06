@@ -1,4 +1,4 @@
-%w{ rubygems sinatra haml sass }.each { |r| require r }
+%w{ rubygems sinatra haml }.each { |r| require r }
 
 get '/' do
   File.read(File.join('public', 'index.html'))
